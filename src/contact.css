@@ -1,0 +1,204 @@
+*{
+    margin: 9px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:cursive;
+    background-color: #a39494;
+    color: #000000;
+
+}
+header{
+    background-color: #b4aeae;
+    color: #000000;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+button a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    background-color: #b4aeae;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin: 5px 0;
+    width: 70%;
+    
+    border-radius: 10px;
+    font-family: cursive;
+   
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+button a:hover{
+    background-color: #746b6b;
+    color: #000000;
+    padding-left: 18px;
+}
+main{
+    background-color: #b4aeae;
+    color: #000000;
+
+}
+section{
+    background-color: #b4aeae;
+    color: #000000;
+}
+form{
+    background-color: #b4aeae;
+    color: #000000;
+    padding-left: 9px;
+}
+ul{
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
+    color: #640404;
+}
+ul li a{
+    font-size: 20px;
+    text-decoration:underline;
+    color: #740505;
+}
+li a:hover{
+    color: #fafafa;
+    padding-left: 19px;
+    /* transition: 2s; */
+}
+
+input{
+    font-size: 20px;
+    color: #000000;
+    background-color: #b4aeae;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin: 5px 0;
+    width: 60%;
+    display: block;
+    border-radius: 10px;
+    font-family: cursive;
+   
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+
+}
+input:hover{
+    background-color: #746b6b;
+    color: #000000;
+}
+.btn{
+    font-size: 20px;
+    color: #000000;
+    background-color: #b4aeae;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin: 5px 0;
+    width: 30%;
+    display: block;
+    border-radius: 10px;
+    font-family: cursive;
+   
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #746b6b;
+    color: #dfd3d3;
+}
+
+section2{
+    background-color: #b4aeae;
+    color: #000000;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+#message{
+    font-size: 20px;
+    color: #000000;
+    background-color: #b4aeae;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin: 5px 0;
+    width: 70%;
+    display: block;
+    border-radius: 10px;
+    font-family: cursive;
+   
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+#message:hover{
+    background-color: #cec4c4;
+    color: #000000;
+}
+footer{
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    background-color: #b5a9a9;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+footer p{
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+footer p:hover{
+    color: #8d0404;
+   padding-left: 19px;
+    /* transition: 2s; */
+}
+footer p a{
+    font-size: 20px;
+    text-decoration: underline;
+    color: #403030;
+    margin: 0 10px;
+}
+footer p a:hover{
+    color: #8d0404;
+    padding-left: 19px;
+    /* transition: 2s; */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    button a, input, .btn, #message {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    button a, input, .btn, #message {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+}

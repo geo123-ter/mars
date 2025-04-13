@@ -1,0 +1,110 @@
+@import url(all.css);
+
+
+ .container7{
+  
+    margin-bottom: 20px;
+    padding: 0px 30;
+    border-bottom: 1px solid #000000;
+} 
+.container7 h1{
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+.container7 p{
+    color: #000000;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    max-width: 600px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+.image{
+    width: 90%;
+    height: auto;
+    max-width: 1000px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.image img{
+    /* width: 100%; */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+} 
+.image p{
+    color: #000000;
+    font-size: 1.2rem;
+    /* text-align: center;
+    justify-content: center; */
+    max-width: 600px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.image :hover{
+    /* background-color: #0056b3; */
+    color: rgb(53, 5, 227);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+/* Footer style */
+footer{
+    background-color: #363b3f;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #0088ff;
+    margin-top: 20px;
+    border-top: 2px solid #0c6bca;
+    font-family: cursive;
+    font-weight: bold;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 20px;
+    font-size: 20px;
+}
+.social-links a{
+    color: #e8eef4;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.social-links a:hover{
+    color: #0080ff;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+.social-links a i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.social-links a span{
+    font-size: 14px;
+    color: #e8eef4;
+    margin-left: 5px;
+}
+.social-links a span:hover{
+    color: #0080ff;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+/* .social-links a span:hover i{ */
+
+

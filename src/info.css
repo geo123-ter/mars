@@ -1,0 +1,226 @@
+*{
+    margin: 9px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:cursive;
+    background-color: #a49999;
+    color: #000000;
+
+}
+.page{
+   
+    background-color: #b5a9a9;
+    color: #000000;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+.introduction{
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+.content{
+    font-size: 20px;
+    /* text-align: center; */
+    color: #000000;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+}
+.misson{
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+p{
+    font-size: 20px;
+    /* text-align: center; */
+    color: #000000;
+}
+ul{
+    font-size: 20px;
+    /* text-align: center; */
+    color: #000000;
+}
+li{
+    font-size: 20px;
+    /* text-align: center; */
+    color: #000000;
+}
+ul li a{
+    font-size: 20px;
+    text-decoration:underline;
+    color: #430579;
+}
+ul li a:hover{
+    color: #8d0404;
+   padding-left: 19px;
+    /* transition: 2s; */
+}
+
+/* article style */
+.article{
+    font-size: 20px;
+    /* text-align: center; */
+    color: #000000;
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+details{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+    max-width: 1000px;
+    color: #052fe8;
+    background-color: rgb(151, 155, 155);
+}
+summary{
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    background-color: rgb(151, 155, 155);
+}
+details summary:hover{
+    color: #8d0404;
+   padding-left: 19px;
+    /* transition: 2s; */
+}
+footer{
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    background-color: #b5a9a9;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+footer p{
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+footer p:hover{
+    color: #8d0404;
+   padding-left: 19px;
+    /* transition: 2s; */
+}
+.footer-content ul {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    list-style-type: none;
+}
+.footer-content ul li {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    list-style-type: none;
+}
+.footer-content ul li a {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #403030;
+    margin: 0 10px;
+}
+.footer-content ul li a:hover {
+    color: #8d0404;
+    padding-left: 19px;
+    /* transition: 2s; */
+}
+button a{
+    font-size: 20px;
+    /* text-align: center; */
+    color: #f3eded;
+    background-color: #0f0101;
+    padding: 10px;
+    margin-top: 20px;
+    /* position: relative; */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: cursive;
+    animation: alternate-reverse 2s infinite;
+    text-decoration: none;
+   
+}
+@keyframes alternate-reverse {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-75px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+button:hover{
+    color: #8d0404;
+   padding-left: 19px;
+    /* transition: 2s; */
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .introduction, .content, .misson, p, ul, li, ul li a, details, summary, footer p {
+        font-size: 16px;
+    }
+    .footer-content ul {
+        flex-direction: column;
+    }
+    button a {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .introduction, .content, .misson, p, ul, li, ul li a, details, summary, footer p {
+        font-size: 14px;
+    }
+    button a {
+        font-size: 14px;
+        padding: 6px;
+    }
+}
